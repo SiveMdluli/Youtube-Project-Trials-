@@ -1,3 +1,83 @@
-html, body {
-    background: #fff;
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    height: 100%;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  #brand {
+    margin-left: 20px;
+  }
+  .youtube {
+    font-weight: 700;
+    height: 30px;
+    width: 60px;
+  }
+  
+  .form-inline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 470px;
+    gap: -2;
+  }
+  
+  #search {
+    width: 300px;
+    height: 30px;
+  }
+  .input-group {
+    width: 100%;
+    height: 70px;
+  }
+  #search-click {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .youtube {
+    text-decoration: none;
+  }
+  .search-form {
+    border-radius: 30px 0 0 30px;
+  }
+  
+  .input-group-btn {
+    max-width: 90px;
+  }
+  
+  .search-btn {
+    color: rgb(26, 26, 36);
+    border-radius: 0 30px 30px 0;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  #video-player {
+    display: flex;
+    align-items: center;
+  }
+  
+  .main-video {
+    padding-left: 250px;
+    padding-top: -5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.fa-duotone {
+  padding-left: 5px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  padding-left:   300px;
+
 }
